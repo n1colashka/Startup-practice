@@ -1,0 +1,100 @@
+/* Общие стили */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+/* Общие стили */
+
+/* Хедер */
+.header {
+    background: url("/img/header-bg.jpg") top center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+
+.header__inner {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.header__row {
+    display: flex;
+    justify-content: space-between;
+    height: 63px;
+    align-items: flex-end;
+}
+
+.header__logo {
+    display: flex;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;
+}
+
+.header__nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav li:not(:first-child) {
+    padding-left: 35px;
+}
+
+.header__info {
+    text-align: center;
+    
+}
+
+.header__title {
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 30px;
+}
+
+.header__subtitle {
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    margin-bottom: 50px;
+}
+
+.header__info-wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    width: 600px;
+}
+
+.btn {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 15px 30px;
+    border: 3px solid #ffffff;
+    text-transform: uppercase;
+}
+
+.header__btn {
+
+}
+/* Хедер */
