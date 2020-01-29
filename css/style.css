@@ -7,6 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 24px;
+    font-weight: 500;
 }
 
 ul {
@@ -60,9 +61,20 @@ a {
     padding-left: 35px;
 }
 
+.header__nav a:hover {
+    color: #d4e77b;    
+}
+
 .header__info {
     text-align: center;
-    
+}
+
+.header__info-wrapper {
+    margin: 0 auto;
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    width: 600px;
 }
 
 .header__title {
@@ -78,14 +90,6 @@ a {
     margin-bottom: 50px;
 }
 
-.header__info-wrapper {
-    margin: 0 auto;
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    width: 600px;
-}
-
 .btn {
     font-size: 16px;
     line-height: 24px;
@@ -94,7 +98,111 @@ a {
     text-transform: uppercase;
 }
 
+.btn:hover {
+    color: #d4e77b;
+    border-color: #d4e77b;
+}
+
 .header__btn {
 
 }
 /* Хедер */
+
+/* Раздел Services */
+
+.services {
+    background-color: #ffffff;
+}
+
+.services__info {
+    position: relative;
+    padding-top: 100px;
+    text-align: center;
+    color: #555555;
+    margin-bottom: 70px;
+}
+.services__info__title {
+    font-size: 20px;
+    text-transform: uppercase;
+    
+}
+
+.services__info__title:after {
+    content: "";
+    position: absolute;
+    background-color: #555555;
+    height: 2px;
+    width: 50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.services__info__subtitle {
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    margin-top: 60px;
+}
+
+.services__items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.services__item {
+    color: #555555;
+    text-align: center;
+    width: 365px;
+    margin-bottom: 50px;
+}
+
+.services__item__icon {
+    margin: 0 auto;
+    width: 90px;
+    height: 90px;
+    border: 2px solid #e0e0e0;
+    border-radius: 50%;
+    background-image:url(../img/services-font-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.services__item__icon:hover {
+    background-color: #c0301c;
+    background-image:url(../img/services-font-icon-hover.png);
+}
+
+.services__item__icon-2 {
+    background-image:url(../img/services-code-icon.png);
+}
+
+.services__item__icon-2:hover {
+    background-image:url(../img/services-code-icon-hover.png);
+}
+
+.services__item__icon-3 {
+    background-image:url(../img/services-support-icon.png);
+}
+
+.services__item__icon-3:hover {
+    background-image:url(../img/services-support-icon-hover.png);
+}
+
+
+
+.services__item__title {
+    text-transform: uppercase;
+    
+}
+
+.services__item__text {
+    font-family: 'Roboto Slab', serif;
+    margin-top: 25px;
+}
+
+/* Раздел Services */
