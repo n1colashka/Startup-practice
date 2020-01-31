@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     line-height: 24px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 ul {
@@ -20,7 +20,7 @@ a {
 }
 
 .container {
-    width: 1140px;
+    max-width: 1140px;
     margin: 0 auto;
 }
 /* Общие стили */
@@ -28,7 +28,7 @@ a {
 /* Хедер */
 .header {
     background: url("/img/header-bg.jpg") top center no-repeat;
-    background-size: cover;
+    /* background-size: cover; */
     color: #ffffff;
 }
 
@@ -114,20 +114,20 @@ a {
     background-color: #ffffff;
 }
 
-.services__info {
+.section__info {
     position: relative;
     padding-top: 100px;
     text-align: center;
     color: #555555;
     margin-bottom: 70px;
 }
-.services__info__title {
+.section__title {
     font-size: 20px;
     text-transform: uppercase;
     
 }
 
-.services__info__title:after {
+.section__title:after {
     content: "";
     position: absolute;
     background-color: #555555;
@@ -139,7 +139,7 @@ a {
     margin-top: 50px;
 }
 
-.services__info__subtitle {
+.section__subtitle {
     font-family: 'Roboto Slab', serif;
     font-size: 16px;
     margin-top: 60px;
@@ -193,8 +193,6 @@ a {
     background-image:url(../img/services-support-icon-hover.png);
 }
 
-
-
 .services__item__title {
     text-transform: uppercase;
     
@@ -206,3 +204,67 @@ a {
 }
 
 /* Раздел Services */
+
+/* Раздел About-Us */
+
+.about-us {
+    background-color: #f8f8f8;
+}
+
+.about-us__articles {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto Slab', serif;
+    color: #555555;    
+    margin-bottom: 70px;
+}
+
+/* Слайдер */
+
+.about-us__slider {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us__slider__item {
+    text-align: center;
+    color: #555555;
+}
+
+.about-us__slider__item__name {
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.about-us__slider__item__position {
+    font-family: 'Roboto Slab', serif;
+    font-size: 13px;
+}
+
+/* .about-us__slider__item__img__wrapper {
+    position: relative;
+} */
+
+.about-us__slider__item__img {
+    width: 263px;
+    height: 250px;
+}
+
+.about-us__slider__item__img-bg {
+    position: absolute;
+    background-color: rgba(85, 85, 85, 0);
+    width: 263px;
+    height: 250px;
+    transition: all .3s;
+}
+
+.about-us__slider__item__img-bg:hover {
+    background-color: rgba(85, 85, 85, 0.5);
+}
+
+
+/* Слайдер */
+
+/* Раздел About-Us */
