@@ -28,7 +28,7 @@ a {
 /* Хедер */
 .header {
     background: url("/img/header-bg.jpg") top center no-repeat;
-    /* background-size: cover; */
+    background-size: cover;
     color: #ffffff;
 }
 
@@ -109,7 +109,6 @@ a {
 /* Хедер */
 
 /* Раздел Services */
-
 .services {
     background-color: #ffffff;
 }
@@ -119,12 +118,12 @@ a {
     padding-top: 100px;
     text-align: center;
     color: #555555;
-    margin-bottom: 70px;
+    
 }
 .section__title {
     font-size: 20px;
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     
 }
 
@@ -143,7 +142,9 @@ a {
 .section__subtitle {
     font-family: 'Roboto Slab', serif;
     font-size: 16px;
+    font-weight: 500;
     margin-top: 60px;
+    margin-bottom: 70px;
 }
 
 .services__items {
@@ -196,14 +197,15 @@ a {
 
 .services__item__title {
     text-transform: uppercase;
+    font-weight: 600;
     
 }
 
 .services__item__text {
     font-family: 'Roboto Slab', serif;
     margin-top: 25px;
+    font-weight: 500;
 }
-
 /* Раздел Services */
 
 /* Раздел About-Us */
@@ -221,12 +223,10 @@ a {
 }
 
 /* Слайдер */
-
-/* .owl-carousel {
-    display: flex;
-    justify-content: space-between;
+.owl-carousel {
+    padding-bottom: 100px;
     
-} */
+}
 
 .about-us__slider__item {
     
@@ -241,7 +241,7 @@ a {
 
 
 .about-us__slider__item__name {
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 15px;
     margin-top: 20px;
@@ -250,6 +250,7 @@ a {
 .about-us__slider__item__position {
     font-family: 'Roboto Slab', serif;
     font-size: 13px;
+    font-weight: 500;
 }
 
 .about-us__slider__item__img__wrapper {
@@ -264,12 +265,12 @@ a {
 .about-us__slider__item__img-bg {
     position: absolute;
     background-color: rgba(85, 85, 85, 0);
-    max-width: 263px;
+    width: 263px;
     height: 250px;
     transition: all .3s;
 }
 
-.about-us__slider__item__img-bg:hover {
+.about-us__slider__item__img__wrapper:hover .about-us__slider__item__img-bg {
     background-color: rgba(85, 85, 85, 0.5);
 }
 
@@ -285,14 +286,13 @@ a {
 }
 
 .about-us__social img {
-    display: flex;
-    align-items: center;
+    /* align-items: center; */
+    width: 120% !important;
 }
 
 .about-us__social li {
     padding: 5px 10px;
     transition: all .2s;
-    max-width: 30px;
 }
 
 .about-us__slider__item__img__wrapper:hover .about-us__social {
@@ -302,9 +302,97 @@ a {
 .about-us__social li:hover {
     background-color: #c0301c;
 }
-
-
-
 /* Слайдер */
-
 /* Раздел About-Us */
+
+/* Раздел Latest works */
+
+.latest-works__filter {
+    display: flex;
+    justify-content: center;
+}
+
+.latest-works__filter li+li {
+    margin-left: 25px;
+}
+
+.latest-works__filter li:hover {
+    color: #c0301c;
+}
+
+.latest-works__gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+}
+
+.latest-works__gallery__item:not(:nth-child(3n+1)){
+    margin-left: 30px;
+}
+
+.latest-works__gallery__item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.latest-works__gallery__item-bg {
+    position: absolute;
+    background-color: rgba(192,48,28, 0);
+    width: 360px;
+    height: 320px;
+    transition: all .4s;
+}
+
+.latest-works__gallery__item:hover .latest-works__gallery__item-bg {
+    background-color: rgba(192,48,28, 0.7);
+}
+
+.latest-works__gallery__item__additional-info {
+    display:none;
+    position: absolute;
+    color: #ffffff;
+    left: 0;
+    right: 0;
+    top:120px;
+    text-align: center;
+    
+}
+
+.latest-works__gallery__item:hover .latest-works__gallery__item__additional-info {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.additional-info__title {
+    font-size: 18px;
+}
+
+.additional-info__subtitle {
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.view-btn {
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    color: #c0301c;
+    margin-top: 25px;
+    padding: 10px 15px;
+}
+
+.view-btn:after {
+    content:">";
+    font-size: 24px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+
+
+/* Поправить шрифты */
+
+/* Раздел Latest works */
