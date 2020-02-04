@@ -223,7 +223,11 @@ a {
 /* Слайдер */
 .owl-carousel {
     padding-bottom: 100px;
-    
+}
+
+.owl-carousel.clients-slider .owl-item img {
+    width: auto;
+    margin: 0 50px;
 }
 
 .about-us__slider__item {
@@ -283,10 +287,10 @@ a {
     left: 0;
 }
 
-.about-us__social img {
-    /* align-items: center; */
-    width: 120% !important;
-}
+/* .about-us__social img {
+     align-items: center;
+
+} */
 
 .about-us__social li {
     padding: 5px 10px;
@@ -498,9 +502,34 @@ a {
 .recent-posts__article:hover .recent-posts__article__author span {
     color: #c0301c;
 }
-
-
-
-
-
 /* Раздел Recent Blog */
+
+/* Раздел Clients */
+
+.clients {
+    background-color: #f8f8f8;
+}
+
+.clients-slider {
+    padding-top: 100px;
+}
+
+.clients__info {
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    max-width: 800px;
+    color: #555555;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.clients__info__text {
+    font-style: italic;
+}
+.clients__info__author {
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+/* Раздел Clients */
