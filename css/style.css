@@ -31,7 +31,7 @@ address {
 
 /* Хедер */
 .header {
-    background: url("/img/header-bg.jpg") top center no-repeat;
+    background: url("../img/header-bg.jpg") top center no-repeat;
     background-size: cover;
     color: #ffffff;
 }
@@ -406,7 +406,7 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: url(/img/section-bg.jpg) no-repeat top center;
+    background: url(../img/section-bg.jpg) no-repeat top center;
     text-align: center;
     color: #ffffff;
     height: 370px;
@@ -644,7 +644,7 @@ address {
     margin-left: 30px;
 }
 
-.main-form label {
+.main-form p {
     text-transform: none;
     margin-left: 40px;
     margin-top: 35px;
