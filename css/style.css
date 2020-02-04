@@ -19,6 +19,10 @@ a {
     color: inherit;
 }
 
+address {
+    font-style: normal;
+}
+
 .container {
     max-width: 1140px;
     margin: 0 auto;
@@ -531,5 +535,118 @@ a {
     font-size: 20px;
     margin-top: 40px;
 }
-
 /* Раздел Clients */
+
+/* Раздел Contacts (Get in touch) */
+
+.contacts__content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.contacts-row {
+    min-width: 365px;
+}
+
+.contacts-row__item {
+    margin-bottom: 35px;
+    display: flex;
+    
+}
+
+.contacts-row__item__icon {
+    height: 100%;
+    margin-top: 7px;
+}
+
+.contacts-row__item__wrapper {
+    margin-left: 15px;
+}
+
+.contacts-row__item__info {
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    line-height: 20px;
+    color: #555555;
+}
+
+.contacts-row__item__title {
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: #555555;
+}
+
+.contacts-form {
+    font-family: 'Roboto Slab', serif;
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+.main-form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-form input[type=text] {
+    font-family: inherit;
+    font-size: inherit;
+    width: 350px;
+    padding: 15px;
+    border: 1px solid #555555;
+}
+
+.main-form input[type=submit] {
+    font-family: inherit;
+    font-size: inherit;
+    width: 170px;
+    padding: 15px;
+    margin-top: 20px;
+    color: #555555;
+    background-color: #ffffff;
+    border: 1px solid #555555;
+}
+
+.main-form textarea {
+    font-family: inherit;
+    font-size: inherit;
+    width: 730px;
+    height: 100px;    
+    padding: 15px;
+    border: 1px solid #555555;
+    resize: none;
+}
+
+.main-form input[type=text] {
+    margin-bottom: 20px;
+}
+
+.main-form input[type=text]:focus,
+.main-form input[type=text]:active,
+.main-form textarea:focus,
+.main-form textarea:active,
+.main-form input[type=submit]:focus,
+.main-form input[type=submit]:active {
+    outline-color:#c0301c;
+}
+
+.main-form input[type=text]:not(:nth-child(2n+1)) {
+    margin-left: 30px;
+}
+
+.main-form label {
+    text-transform: none;
+    margin-left: 40px;
+    margin-top: 35px;
+    color: #555555;
+}
+
+
+.main-form span {
+    color:#c0301c;
+}
+
+/* Раздел Contacts (Get in touch) */
+
