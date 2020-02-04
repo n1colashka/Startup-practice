@@ -506,6 +506,10 @@ address {
 .recent-posts__article:hover .recent-posts__article__author span {
     color: #c0301c;
 }
+
+.recent-posts__article:hover .recent-posts__article__date {
+    color:#c0301c;
+}
 /* Раздел Recent Blog */
 
 /* Раздел Clients */
@@ -538,6 +542,10 @@ address {
 /* Раздел Clients */
 
 /* Раздел Contacts (Get in touch) */
+
+.contacts {
+    padding-bottom: 100px;
+}
 
 .contacts__content {
     display: flex;
@@ -647,6 +655,79 @@ address {
 .main-form span {
     color:#c0301c;
 }
-
 /* Раздел Contacts (Get in touch) */
+
+/* Футер */
+
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #c0301c;
+    max-height: 300px;
+}
+
+.footer__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    
+}
+
+.footer__socials__logos {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+
+.footer__socials__logos li {
+    width: 35px;
+    height: 35px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    padding: 7px;
+    transition: all .3s;
+}
+
+.footer__socials__logos li:hover {
+    background-color: lightsalmon;
+    border-color: coral;
+}
+
+.footer__socials__logos li+li {
+    margin-left: 10px;
+}
+
+.footer__socials__logos img {
+    
+}
+
+.footer__socials__logos a {
+    align-items: center;
+    
+}
+
+.footer__socials__text {
+    position: relative;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.footer__socials__text::before {
+    content: "";
+    position: absolute;
+    background-color: #ffffff;
+    height: 2px;
+    width: 50px;
+    left: 0;
+    right: 0;
+    bottom: 50px;
+    margin: 0 auto;
+    
+}
+
+/* Футер */
 
