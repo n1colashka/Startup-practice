@@ -11,10 +11,10 @@ $(document).ready(function(){
             500:{
                 items:2
             },
-            750:{
+            870:{
                 items:3
           },
-            1000:{
+            1100:{
                 items:4
             }
         }
