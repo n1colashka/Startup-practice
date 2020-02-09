@@ -1,10 +1,52 @@
-@media (max-width:1139px) {
+@media (max-width:1180px) {
+    .contacts-row__item {
+        padding-left: 10px;
+    }
+}
 
-    .latest-works__gallery__item:not(:nth-child(3n+1)){
+@media (max-width:1105px) {
+
+    .contacts__content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .main-form {
+        display: block;
+    }
+
+    .main-form input[type=text]:not(:nth-child(2n+1)) {
         margin-left: 0;
     }
 
-    .latest-works__gallery__item:not(:nth-child(2n+1)){
+    .main-form input[type=text] {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 5px 25px;
+
+    }
+
+    .main-form textarea {
+        width: 100%;
+    }
+
+    .contacts-row {
+        min-width: 300px;
+    }
+
+    .main-form p {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:1139px) {
+
+    .latest-works__gallery__item:not(:nth-child(3n+1)) {
+        margin-left: 0;
+    }
+
+    .latest-works__gallery__item:not(:nth-child(2n+1)) {
         margin-left: 30px;
     }
 }
@@ -25,6 +67,7 @@
     .about-us__slider__item:first-child {
         margin-left: auto;
     }
+
     .about-us__slider__item:last-child {
         margin-right: auto;
     }
@@ -39,7 +82,7 @@
 
     .recent-posts__article img {
         padding: 50px;
-        order:2;
+        order: 2;
     }
 }
 
@@ -49,15 +92,15 @@
         margin: 10px 10px;
     }
 
-    .latest-works__gallery__item:not(:nth-child(2n+1)){
+    .latest-works__gallery__item:not(:nth-child(2n+1)) {
         margin-left: 10px;
     }
 
-    .latest-works__gallery__item:not(:nth-child(3n+1)){
+    .latest-works__gallery__item:not(:nth-child(3n+1)) {
         margin-left: 10px;
     }
 
-    
+
 }
 
 @media (max-width:700px) {
@@ -86,13 +129,17 @@
         border-bottom: 1px solid #ffffff;
     }
 
-    .header__nav li + li {
+    .header__nav li+li {
         padding-left: 0;
     }
 }
 
 @media (max-width:620px) {
     .about-us__articles {
+        display: block;
+    }
+
+    .contacts__content {
         display: block;
     }
 }
@@ -119,11 +166,11 @@
         max-width: 400px;
     }
 
-    .latest-works__gallery__item img{
+    .latest-works__gallery__item img {
         width: 250px;
     }
 
-    .latest-works__gallery__item-bg{
+    .latest-works__gallery__item-bg {
         width: 250px;
         height: 222px;
     }
@@ -145,7 +192,7 @@
     .clients-slider {
         padding-top: 50px;
     }
-    
+
     .owl-carousel {
         padding-bottom: 50px;
     }
