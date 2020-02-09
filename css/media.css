@@ -30,6 +30,19 @@
     }
 }
 
+@media (max-width:963px) {
+
+    .recent-posts__article {
+        flex-wrap: wrap;
+    }
+
+
+    .recent-posts__article img {
+        padding: 50px;
+        order:2;
+    }
+}
+
 @media (max-width:749px) {
 
     .latest-works__gallery__item {
@@ -118,12 +131,25 @@
     .latest-works__gallery__item__additional-info {
         top: 45px;
     }
+
+    .recent-posts__article img {
+        display: none;
+    }
+
+    .recent-posts__article__author {
+        padding-bottom: 10px;
+    }
 }
 
 @media (max-width:350px) {
     .call-to-action__section__text {
         font-size: 18px;
         line-height: 28px;
+    }
+
+    .recent-posts__article__date {
+        margin-bottom: 15px;
+        padding-top: 40px;
     }
 }
 

@@ -452,10 +452,15 @@ address {
     justify-content: center;
     margin-bottom: 38px;
     margin-top: 38px;
+    padding: 0 15px;;
 }
 
 .recent-posts__article__content {
    margin-left: 30px;
+}
+
+.recent-posts__article img {
+    width: 460px;
 }
 
 .recent-posts__article__header {
@@ -508,6 +513,7 @@ address {
 .recent-posts__article__btn {
     margin-top: 30px;
 }
+
 
 .read-more__btn {
     font-weight: 700;
