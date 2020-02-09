@@ -200,6 +200,10 @@
     .owl-carousel.clients-slider .owl-item img {
         margin: 0 auto;
     }
+
+    .footer__socials__text {
+        font-size: 10px;
+    }
 }
 
 @media (max-width:350px) {
