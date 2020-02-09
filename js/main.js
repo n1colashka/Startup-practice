@@ -28,9 +28,15 @@ $(document).ready(function(){
         autoplayTimeout:4000, //Время смены слайда
         responsive:{ //Адаптация в зависимости от разрешения экрана
             0:{
-                items:3
+                items:1
+            },
+            380:{
+                items:2
             },
             600:{
+                items:3
+            },
+            800:{
                 items:4
             },
             1000:{
