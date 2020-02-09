@@ -434,8 +434,8 @@ address {
 }
 
 .call-to-action__section__wrapper {
-    width: 500px;
-    height: 170px;
+    max-width: 500px;
+    min-height: 170px;
     
 }
 /* Раздел Call to action */
