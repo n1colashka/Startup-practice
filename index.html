@@ -9,6 +9,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700|Roboto+Slab:400,500,600,700&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/reset.css">
@@ -48,7 +49,7 @@
                         <div class="header__title">Welcome to startup</div>
                         <div class="header__subtitle">Your Favourite Creative Agency Template</div>
                         <div class="header__btn">
-                            <a class="btn" href="#">Get started</a>
+                            <a class="btn" data-fancybox data-src="#modal" href="#">Get started</a>
                         </div>
                     </div>
                 </div>
@@ -477,7 +478,7 @@
                     Let's talk about YOUR PROJECT!
                 </div>
                 <div class="call-to-action__btn">
-                    <a href="#" class="btn">Get in Touch</a>
+                    <a class="btn" data-fancybox data-src="#modal" href="#">Get in Touch</a>
                 </div>
             </div>
         </div>
@@ -642,9 +643,17 @@
             </div>
         </div>
     </footer>
+    <div id="modal">
+        <form>
+            <input type="text" name="client-name" placeholder="Your name">
+            <input type="tel" name="client-phone" placeholder="Your phone">
+            <input type="submit" value="Send">
+        </form>
+    </div>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script>
     <script src="js/main.js"></script>
 </body>

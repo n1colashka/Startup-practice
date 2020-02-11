@@ -751,3 +751,27 @@ address {
 
 /* Футер */
 
+/* Модальное окно */
+
+#modal {
+    display: none;
+    width: 300px;
+}
+
+#modal input {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    display: block;
+    outline: none;
+    border: 1px solid #e6e6e6;
+    padding: 0 10px;
+    width: 100%;
+    margin-bottom: 20px;    
+    height: 40px;
+}
+
+#modal input[type="submit"] {
+    background-color: #ffc222;
+    border: none;
+}
+/* Модальное окно */
